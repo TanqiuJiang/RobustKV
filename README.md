@@ -9,7 +9,7 @@
   - Scores entries by attack potential  
   - Evicts top-ranked entries to block harmful prompts  
 - **Seamless Integration**  
-  - Built on the same low-level KV APIs as [SnapKV](https://github.com/FasterDecoding/SnapKV)  
+  - Built on the same low-level KV Optimization Application such as [SnapKV](https://github.com/FasterDecoding/SnapKV)  
   - Minimal code changes—drop-in wrapper around any HuggingFace transformer  
 - **Configurable & Extensible**  
   - Adjustable eviction thresholds per experiment  
@@ -26,6 +26,6 @@ Evaluate the default AutoDAN jailbreak on Llama2-chat-7b:
 Run the same attack with RobustKV enabled:
 
   ```bash
-    python RobustKV-AutoDAN.py
+  python RobustKV-AutoDAN.py
   ```
 
